@@ -110,12 +110,6 @@ namespace FAHHnetStore.Manager
                 }
                 //var sumborder = sumsheet.Cells.Style.Border;
                 //sumborder.Bottom.Style = sumborder.Top.Style = sumborder.Left.Style = sumborder.Right.Style = ExcelBorderStyle.Thin;
-                //sumborder.Bottom.Color.SetColor(Color.Black);
-                //sumborder.Top.Color.SetColor(Color.Black);
-                //sumborder.Left.Color.SetColor(Color.Black);
-                //sumborder.Right.Color.SetColor(Color.Black);
-   
-
                 package.Save();
                 return sWebRootFolder + sFileName;
             }
